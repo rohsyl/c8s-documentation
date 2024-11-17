@@ -5,5 +5,12 @@
 <instance-profile id="c"
                  name="c8s"
                  start-page="C8S.md">
-    <toc-element topic="C8S.md"/>
+    <toc-element topic="C8S.md">
+        <toc-element topic="Sources.md">
+            <toc-element topic="Create-a-new-source.md"/>
+        </toc-element>
+        <toc-element topic="Projects.md">
+            <toc-element topic="Link-a-GitHub-Repository.md"/>
+        </toc-element>
+    </toc-element>
 </instance-profile>
