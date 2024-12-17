@@ -1,30 +1,72 @@
-# Create a new GitHub source
+# GitHub sources
 
-Get on c8s and go to the Sources menu. Then click on "+ Add".
+Sources are platform where your project are stored.
 
-You can fill in a Name and an Organization. These values will be used to create a new GitHub Application.
-Click on "Continue"
-![c8s-source-create-modal-1.png](c8s-source-create-modal-1.png)
+## Create
+First, you will need to create a new source in c8s.
+
+<procedure title="Create a new GitHub source">
+<step>
+Go to the <ui-path>Sources</ui-path> menu. Then click on <control>+ Add</control>.
+</step>
+<step>
+Fill in a Name and an Organization.
+<tip>These values will be used to create a new <emphasis>GitHub Application</emphasis>.</tip>
+</step>
+<step>
+Click on <control>Continue</control>
+<img alt="c8s-source-create-modal-1.png" src="c8s-source-create-modal-1.jpeg" border-effect="rounded"/>
+</step>
+</procedure>
+
+
+
+## Register
 
 This will leave you with an un-configured source in c8s. The next step will be to registered it within your
 GitHub account
 
-![c8s-source-create-need-reg-1.png](c8s-source-create-need-reg-1.png)
+<procedure title="Register a GitHub source">
+<step>
+Open the source under <ui-path>Sources | c8s-xxxxxxxx</ui-path>
+<img alt="c8s-source-create-need-reg-1.png" src="c8s-source-create-need-reg-1.jpeg" border-effect="rounded"/>
+</step>
+<step>
+Click on <control>Register now</control>
+<img alt="c8s-source-register-1.png" src="c8s-source-register-1.jpeg" border-effect="rounded"/>
+</step>
+<step>
+Click on <control>Create GitHub App for xxx</control>.
+<img alt="c8s-source-create-gh-app-1.png" src="c8s-source-create-gh-app-1.jpeg" border-effect="rounded"/>
+<tip>This will create a new app on GitHub and redirect you back to c8s.</tip>
+</step>
+</procedure>
 
-If you click on the newly created source you will be redirected to a new page where you can register your app
+## Install
 
-![c8s-source-register-1.png](c8s-source-register-1.png)
+<procedure title="Install a GitHub source">
+<step>
+Head back to your source under <ui-path>Sources | c8s-xxxxxxxx</ui-path> and click on <control>Install GitHub App</control>.
+<img alt="c8s-source-install-gh-app-1.png" src="c8s-source-install-gh-app-1.jpeg" border-effect="rounded"/>
+</step>
+<step>
+Install this app on your personal GitHub account and grant access to one or many of you <emphasis>repositories</emphasis>. Click on
+<control>Install</control>.
+<img alt="c8s-source-install-gh-app-2.png" src="c8s-source-install-gh-app-2.jpeg" border-effect="rounded"/>
+</step>
+</procedure>
 
-Click on "Create GitHub App". This will create a new app on GitHub and redirect you back to c8s.
-![c8s-source-create-gh-app-1.png](c8s-source-create-gh-app-1.png)
 
-Then head back to your source "Sources" > c8s-******** and click on "Install GitHub App"
-![c8s-source-install-gh-app-1.png](c8s-source-install-gh-app-1.png)
+## Verify
 
+<p>
+    You can see your source under <ui-path>Sources | c8s-xxxxxxxx</ui-path> in the <ui-path>Permissions</ui-path> section.
+</p>
 
-Now you can install this app on your personal GitHub account and grant access to one or many of you repositories. Click on
-"Install".
-![c8s-source-install-gh-app-2.png](c8s-source-install-gh-app-2.png)
+<procedure title="Refresh permissions">
+<step>
+Click on <control>Fetch permissions</control>
+</step>
+<img alt="c8s-source-review.png" src="c8s-source-review.jpeg" border-effect="rounded"/>
+</procedure>
 
-You are now all set. Ensure all the permissions are set up correctly.
-![c8s-source-review.png](c8s-source-review.png)
