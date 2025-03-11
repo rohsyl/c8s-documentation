@@ -6,14 +6,23 @@
                  name="c8s"
                  start-page="C8S.md">
     <toc-element topic="C8S.md">
+        <toc-element topic="Learn.md">
+            <toc-element topic="Basics-of-CI-CD.md"/>
+            <toc-element topic="Key-Concepts.md"/>
+            <toc-element topic="List-of-CI-Providers.md"/>
+            <toc-element topic="How-to-Choose-a-CI-Provider.md"/>
+            <toc-element topic="Best-Practices-in-CI-CD.md"/>
+        </toc-element>
         <toc-element topic="Examples.md">
             <toc-element topic="Set-up-Testing-for-Laravel-Project.md"/>
         </toc-element>
-        <toc-element topic="Sources.md">
-            <toc-element topic="Create-a-new-source.md"/>
-        </toc-element>
-        <toc-element topic="Projects.md">
-            <toc-element topic="Link-a-GitHub-Repository.md"/>
+        <toc-element topic="c8s-User-Guide.md">
+            <toc-element topic="Sources.md">
+                <toc-element topic="Create-a-new-source.md"/>
+            </toc-element>
+            <toc-element topic="Projects.md">
+                <toc-element topic="Link-a-GitHub-Repository.md"/>
+            </toc-element>
         </toc-element>
     </toc-element>
 </instance-profile>
