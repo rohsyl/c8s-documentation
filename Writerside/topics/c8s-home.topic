@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="c8s-home" id="c8s-home">
+
+    <section-starting-page>
+        <title>C8S</title>
+        <description>
+            c8s is a SaaS platform designed to streamline the process of creating, deploying, and monitoring CI
+            workflows. With c8s, developers can focus on what they do best—building great software—while leaving the
+            complexities of workflow management to us.
+        </description>
+
+        <spotlight>
+            <title>Getting started</title>
+            <a href="Learn.md"/>
+            <a href="c8s-User-Guide.md" />
+        </spotlight>
+
+        <primary>
+            <title>More resources</title>
+            <a href="Examples.md"/>
+        </primary>
+
+    </section-starting-page>
+
+</topic>
