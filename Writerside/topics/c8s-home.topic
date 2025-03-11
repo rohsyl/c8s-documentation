@@ -24,6 +24,14 @@
             <a href="Examples.md"/>
         </primary>
 
+        <secondary>
+            <title>Learn</title>
+            <a href="Basics-of-CI-CD.md" />
+            <a href="Key-Concepts.md" />
+            <a href="How-to-Choose-a-CI-Provider.md" />
+            <a href="Best-Practices-in-CI-CD.md" />
+        </secondary>
+
     </section-starting-page>
 
 </topic>
