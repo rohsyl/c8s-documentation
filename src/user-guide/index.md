@@ -1,6 +1,6 @@
-# c8s User Guide
+# User Guide
 
-Welcome to the **c8s User Guide**, your complete reference for understanding how c8s works and how to navigate its intuitive UI. Whether you're configuring your first workflow or fine-tuning advanced settings, this guide will walk you through every step.
+Welcome to the **user guide**, your complete reference for understanding how c8s works and how to navigate its intuitive UI. Whether you're configuring your first workflow or fine-tuning advanced settings, this guide will walk you through every step.
 
 You'll learn how to:
 - Set up and manage CI/CD pipelines with **c8s**.

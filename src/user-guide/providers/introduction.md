@@ -1,4 +1,4 @@
-# Providers (sources)
+# Providers
 
 Sources are platform where your project are stored. For
 now, we only support [GitHub](https://github.com/). It's plaform that support

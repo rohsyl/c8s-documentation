@@ -1,0 +1,25 @@
+{
+  "name": "c8s-documentation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rohsyl/c8s-documentation.git"
+  },
+  "author": "rohsyl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohsyl/c8s-documentation/issues"
+  },
+  "homepage": "https://github.com/rohsyl/c8s-documentation#readme",
+  "description": "",
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  }
+}
