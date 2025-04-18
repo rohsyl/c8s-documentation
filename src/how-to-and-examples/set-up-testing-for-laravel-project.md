@@ -11,7 +11,7 @@ Before you begin, ensure you have the following:
 - A working Laravel project with a few tests
 - Your project hosted on GitHub
 - A c8s account
-- c8s linked with your GitHub account (Follow [this tutorial](Create-a-new-source.md) to link your repository.)
+- c8s linked with your GitHub account (Follow [this tutorial](/user-guide/providers/introduction) to link your repository.)
 
 ## Import Your Project into c8s and Create a Workflow
 

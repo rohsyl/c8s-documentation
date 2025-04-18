@@ -1,6 +1,6 @@
 # GitHub Repository
 
-Before linking a repository to c8s you need to have [source set up](Create-a-new-source.md) and configured correctly.
+Before linking a repository to c8s you need to have [source set up](/user-guide/providers/introduction) and configured correctly.
 
 ## Link a GitHub Repository
 
