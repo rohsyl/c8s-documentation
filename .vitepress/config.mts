@@ -40,6 +40,13 @@ export default defineConfig({
           ]
       },
       {
+        text: 'How To & Examples',
+        items: [
+          { text: 'Overview', link: '/how-to-and-examples/overview' },
+          { text: 'Set up Testing for Laravel Project', link: '/how-to-and-examples/set-up-testing-for-laravel-project' },
+        ]
+      },
+      {
         text: 'Learn',
         items: [
           { text: 'Introduction', link: '/learn/introduction' },

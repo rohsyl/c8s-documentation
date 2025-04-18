@@ -1,0 +1,17 @@
+/* .vitepress/theme/style.css */
+:root {
+    --vp-image-radius: 0.5rem;
+    --vp-c-brand-1: #1ca5ff;
+    --vp-c-brand-2: #ab4aff;
+    --vp-c-white: #e3e3e3;
+    --vp-c-black: #101010;
+}
+
+.vp-doc img {
+    border-radius: var(--vp-image-radius);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+img.center {
+    margin: 0 auto;
+}
