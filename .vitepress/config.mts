@@ -21,6 +21,8 @@ export default defineConfig({
     sidebar: [
       {
           text: 'User guide',
+          link: '/user-guide',
+          collapsed: true,
           items: [
             {
               text: 'Providers',
@@ -41,6 +43,7 @@ export default defineConfig({
       },
       {
         text: 'How To & Examples',
+        collapsed: true,
         items: [
           { text: 'Overview', link: '/how-to-and-examples/overview' },
           { text: 'Set up Testing for Laravel Project', link: '/how-to-and-examples/set-up-testing-for-laravel-project' },
@@ -48,6 +51,7 @@ export default defineConfig({
       },
       {
         text: 'Learn',
+        collapsed: true,
         items: [
           { text: 'Introduction', link: '/learn/introduction' },
           { text: 'Basics of CI/CD', link: '/learn/basics-of-ci-cd' },
